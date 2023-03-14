@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>WD101</title>
+    </head>
+    <body>
+        <form id="user-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+         
+            <label for="email">Email</label>
+            <input required type="email" id="email" name="email">
+         
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+         
+            <label for="dob">Date of Birth</label>
+            <input required max="2004-09-17" min="1971-09-17"type="date" id="dob" name="dob">
+         
+            <input type="checkbox" id="acceptTerms" name="acceptTerms">
+            <label for="acceptTerms">Accept Terms & Conditions</label>
+         
+            <button type="submit">Submit</button>
+         </form>
+        <h2>Table</h2>
+        <div id="user-entries"></div>
+         <script src="./index.js"></script>
+    </body>
+    
+</html>
